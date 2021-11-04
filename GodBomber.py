@@ -33,7 +33,7 @@ print(f"""{red}
                       @@@@@@@@@@@@@@@@@@@@@@
 """)
 
-phone = input(f"{green}[?]Enter phone : ") 
+phone = input(f"{green}[?]Enter phone(+98******) : ") 
 f = "0" + phone.split("98")[1]
 os.system("clear")
 print_slow("loading[■■■10%]\n")
