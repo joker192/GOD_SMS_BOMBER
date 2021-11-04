@@ -2,7 +2,6 @@ import os
 import threading
 import requests
 import time
-import socket
 def print_slow(txt):
     for x in txt:
         print(x, end='', flush=True)  
